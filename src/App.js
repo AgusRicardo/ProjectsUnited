@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import {Card, Button} from 'react-bootstrap'
+import './styles/app.css'
+import db from "./db/db.json";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+      <b>V.1.0.0</b>
+    <div className='app__content-container'>
+      {db.projects.map((value) => (
+        <Card style={{ width: "15rem" }} key={value.id} className='app__content'>
+          <Card.Img variant="top" src={value.img} />
+          <Card.Body className='app__card-body'>
+            <Card.Title>{value.name}</Card.Title>
+            <Card.Text>{value.description}</Card.Text>
+            <a href={value.url} className='app__btn'><Button variant="primary" className='app__btn'>Abrir</Button></a>
+          </Card.Body>
+        </Card>
+      ))}
     </div>
+    </>
   );
 }
 

@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(71, 71, 241);
+}
+b {
+  display: flex;
+  justify-content: end;
+  padding: 2px;
+  margin: 2px;
+}
+.app__content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+.app__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.app__card-body {
+  padding: 10px;
+}
+.app__btn {
+  width: 100% !important;
+  color: white;
+  text-decoration: none;
+}
+.app__btn:hover {
+  color: black;
+}
