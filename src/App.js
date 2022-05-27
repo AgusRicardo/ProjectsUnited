@@ -12,7 +12,7 @@ function App() {
           <Card.Body className='app__card-body'>
             <Card.Title>{value.name}</Card.Title>
             <Card.Text>{value.description}</Card.Text>
-            <a href="../Ahorcado/index.html" className='app__btn'><Button variant="primary" className='app__btn'>Abrir</Button></a>
+            <a href={value.url} className='app__btn'><Button variant="primary" className='app__btn'>Abrir</Button></a>
           </Card.Body>
         </Card>
       ))}

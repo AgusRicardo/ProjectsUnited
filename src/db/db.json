@@ -6,7 +6,7 @@
         "name": "Ahorcado",
         "img": "https://i.pinimg.com/originals/54/55/26/545526e6d9b316b338cd2e7f3b136bfd.jpg",
         "description": "asdasdasd",
-        "url": "../Ahorcado/index.html"
+        "url": "http://127.0.0.1:5500/src/Ahorcado/index.html"
     },
     {
         "id": "02",
