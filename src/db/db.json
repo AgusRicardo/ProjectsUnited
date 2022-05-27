@@ -5,16 +5,16 @@
         "number-project": "1",
         "name": "Ahorcado",
         "img": "https://i.pinimg.com/originals/54/55/26/545526e6d9b316b338cd2e7f3b136bfd.jpg",
-        "description": "asda",
-        "url": "asda"
+        "description": "asdasdasd",
+        "url": "../Ahorcado/index.html"
     },
     {
         "id": "02",
         "number-project": "2",
         "name": "Prode",
         "img": "https://i.pinimg.com/originals/54/55/26/545526e6d9b316b338cd2e7f3b136bfd.jpg",
-        "description": "sdasdasdasdasdasdasdasd",
-        "url": "https://www.google.com"
+        "description": "https://www.google.com/",
+        "url": "https://www.google.com/"
     },
     {
         "id": "03",
